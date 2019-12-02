@@ -1,4 +1,4 @@
-const Sample = require('../index');
+import Sample from '../index';
 
 describe("Sample Class", () => {
     describe('Constructor', () => {
