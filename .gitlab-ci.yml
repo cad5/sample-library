@@ -1,12 +1,13 @@
 image: node:12.13.1-alpine3.10
 stages:
-  - build
+  - install
   - test
+  - build
 cache:
   paths:
     - node_modules/
 install_dependencies:
-  stage: build
+  stage: install
   script:
     - npm install
   artifacts:
@@ -15,3 +16,6 @@ install_dependencies:
 testing:
   stage: test
   script: npm test
+building:
+  stage: build
+  script: npm run build
