@@ -1,0 +1,17 @@
+{
+  "name": "sample-library",
+  "version": "0.1.0",
+  "description": "This is a sample library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:ci": "jest --ci",
+    "test:dev": "jest --watch --coverage",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "Carlos Danna",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
