@@ -7,7 +7,7 @@ This is a sample library the idea is to provide an example on how to develop a l
 The folder structure for the project consists in 
 
 * Root directory - where we have configurations for the application
-* __Tests__ - folder where we have our unit tests
+* Tests - folder where we have our unit tests
 * dist - is the folder where our minified version of the library will reside
 
 # Contributions
